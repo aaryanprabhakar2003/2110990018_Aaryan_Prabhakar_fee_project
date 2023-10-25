@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+}
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.category,.deals,.new,.delivery,.account,.cart{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-left: 8rem;
+}
+.logo,.category,.deals,.new,.delivery,.searchbox,.account,.cart{
+    margin-right: 7rem;
+}
+.category:hover,.deals:hover,.new:hover,.delivery:hover,.account:hover,.cart:hover{
+    cursor: pointer;
+    transition: 2s;
+}
+.banner{
+    width: 100%;
+
+}
+.back{
+    width: 100%;
+ height: 700px;
+}
+.illu1{
+    width: 90%;
+    margin-top: 2%;
+}
+.shopcart-txt{
+    font-family: Verdana;
+    font-size: 45px;
+}
+.story{
+    font-family: Verdana;
+    font-size: 18px;
+    line-break: auto;
+    line-height:1.8em
+   
+}
+span{
+    color: red;
+    font-weight: bolder;
+}
+.illu2{
+    width: 90%;
+    margin-top: 15%;
+
+}
+.team{
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.hr1{
+    margin-inline: 5%;
+    background-color:gray;
+    height: 1px;
+    border: none;
+}
+.persons{
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    transition: .4s;
+}
+.persons:hover{
+    scale:1.03;
+    cursor: pointer;
+}
+.faq,.opp,.hdo{
+    background-color: #f5f6f6;
+    height: 60%;
+    width: 30%;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.faq-img,.hdo-img,.opp-img{
+    width: 100%;
+    border-radius: 15px;
+ transition: 0.4s;
+ 
+}
+.faq-img:hover,.hdo-img:hover,.opp-img:hover{
+    transform: scale(1.02);
+}
+.faq-txt,.opp-txt,.hdo-txt{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 5%;
+}
+.faq-sub,.opp-sub,.hdo-sub{
+    font-family: Verdana;
+    font-weight: 300;
+     margin: 5%;
+}
+.services{
+    margin-bottom: 5rem;
+}
+.payments-txt{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.payment-img{
+    width: 50px;
+   
+    margin-right: 2%;
+  
+}
+.footer-heading{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bolder;
+   
+    
+}
+.footersub-txt{
+    font-family: Verdana;
+     color: rgb(103, 103, 103);
+     transition: 0.2s;
+}
+.footersub-txt:hover{
+    color: black;
+    cursor: pointer;
+}
+.newsletterdiv{
+    margin: 8%;
+    background-color:  #f5f6f6;
+    height: 250px;
+    border-radius: 25px;
+}
+.news-txt{
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: bold;
+   margin-top: 8%;
+    margin-left: 10%;
+    width: 700px;
+}
+.news-txt1{
+    font-family: Verdana;
+    margin-left: 10%;
+    color: gray;
+}
+.subscribe{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    width: 150px;
+    border-radius: 10px;
+    font-family: Verdana;
+    border: none;
+    margin-left: 4%;
+    margin-top: 16%;
+    transition: 0.2s;
+    
+}
+
+.subscribe:hover{
+    cursor: pointer;
+    scale: 1.02;
+}
+.subscribe:hover{
+    cursor: pointer;
+}
+.emailbox{
+    margin-top: 16%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 300px;
+
+}

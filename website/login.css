@@ -1,0 +1,97 @@
+.check{
+   display:block;
+    margin:auto;
+    margin-top: 1%;
+
+
+ 
+ 
+}
+.terms{
+    display:block;
+    font-family: Verdana;
+  
+
+ 
+    
+}
+.continue{
+    display:block;
+    margin:auto;
+    width: 50%;
+    font-family: Verdana;
+color: white;
+    font-size: 15px;
+    background-color:lightblue;
+    border-radius: 15px;
+    padding: 3%;
+    border: black;
+    margin-top: 3%;
+    transition: .4s;
+   
+    
+}
+span{
+    color: red;
+}
+.continue:hover{
+    scale:1.02;
+}
+.started{
+    font-family: Verdana;
+    font-size: 40px;
+    margin-top:12%;
+    text-align: center;
+
+}
+.credentials{
+    margin-top: 2%;
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.box{
+    margin:auto;
+    margin-top: 3%;
+    font-size: 13px;
+    font-family: Verdana;
+    padding: 3%;
+    margin-bottom: 4%;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 50%;
+   
+  
+}
+.box1{
+    margin:auto;
+    font-size: 13px;
+    font-family: Verdana;
+    padding: 3%;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 50%;
+    margin-bottom: 4%;
+ 
+   
+
+}
+.box2{
+    margin:auto;
+    font-size: 13px;
+    font-family: Verdana;
+    padding: 3%;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 50%;
+    margin-bottom: 4%;
+   
+
+}

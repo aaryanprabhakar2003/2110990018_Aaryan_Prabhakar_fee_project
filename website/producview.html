@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-[#212529]">
+    <div>
+    <div class="flex m-10">
+        <div id="left" class=" w-[60%]  flex flex-col">
+           <div id="imgdiv" class="  bg-black w-[90%]  rounded-t-2xl">
+            <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662703541/Croma%20Assets/Communication/Mobiles/Images/261930_q0hq3w.png?tr=w-1000 " class="scale-90 rounded-lg" id="productimg" >
+
+
+           </div>
+
+           <div class="flex justify-between my-2  w-[90%] rounded-br-lg rounded-bl-2xl  gap-2   shadow-lg"> 
+            <div class="  bg-black rounded-bl-lg">
+                <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685965616/Croma%20Assets/Communication/Mobiles/Images/261930_4_mxvidg.png?tr=w-1000" class="small-img">
+
+            </div>
+            <div class=" bg-black">
+                <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685965540/Croma%20Assets/Communication/Mobiles/Images/261930_10_i7hdbk.png?tr=w-1000"  class="small-img">
+
+            </div>
+            <div class="  bg-black rounded-br-lg">
+                <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685965549/Croma%20Assets/Communication/Mobiles/Images/261930_7_i3hkil.png?tr=w-1000" class="small-img">
+
+            </div>
+          
+
+
+           </div>
+
+
+        
+         
+
+        </div>
+        <div id="right" class="w-[40%] mx-10 p-2 flex flex-col justify-items-start my-8] text-white">
+           <h1 class=" font-bold text-[35px] dark:text-white">Apple iPhone 14</h1>
+           <p class="text-[15px] my-4 text-blue-500 underline hover:cursor-pointer">4.7&#10029;(202 Ratings & 195 Reviews)</p>
+           <div id="emi" class="flex justify-items-center justify-between my-5">
+            <div class="flex flex-col justify-items-start">
+           <p class="font-bold text-[25px]">₹65,990.00</p>
+           <p class="text-[14px] text-red-600 underline">(Incl. all Taxes)</p>
+        </div>
+           <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 my-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+          </svg>
+
+          </p>
+          <div class="flex flex-col justify-items-start">
+          <p class="text-[25px] font-bold">₹3,106/mo*</p>
+          <p class="text-[14px] text-red-600 underline">EMI Options</p>
+          </div>
+       
+        </div>
+        <div class="my-5">
+        <p>Internal Storage:</p>
+        <div class="flex justify-between p-2">
+           <p class="bg-black text-[15px]  w-25 text-center rounded-md p-3  hover:cursor-pointer  my-5" id="64gb" onclick="changeborder()">64GB</p>
+            <p class="bg-black  text-[15px]  w-25 text-center  rounded-md  p-3  hover:cursor-pointer my-5 "  id="128gb" onclick="changeborder1()">128GB</p>
+            <p class="bg-black text-[15px]   w-25  text-center  rounded-md p-3 hover:cursor-pointer my-5 "  id="256gb" onclick="changeborder2()">256GB</p>
+            <p class="bg-black text-[15px]  w-25  text-center  rounded-md  p-3  hover:cursor-pointer my-5 " id="512gb" onclick="changeborder3()">512GB</p>
+        </div>
+        </div>
+        <div class="my-5">
+        <p>Color:</p>
+        <div class="flex justify-between p-2 ">
+         
+            <p class="bg-black text-[15px]  w-25 text-center p-3 rounded-md  hover: cursor-pointer  my-5 "  id="midnight" onclick="midnight()">Midnight</p>
+            <p class="bg-black  text-[15px] w-25 text-center p-3 rounded-md  hover: cursor-pointer my-5" id="starlight" onclick="starlight()">Starlight</p>
+            <p class="bg-black text-[15px]  w-25 text-center p-3 rounded-md  hover: cursor-pointer  my-5" id="purple" onclick="purple()">Purple</p>
+            <p class="bg-black text-[15px]  w-25 text-center p-3 rounded-md  hover: cursor-pointer my-5" id="yellow" onclick="yellow()">Yellow</p>
+        </div>
+        </div>
+
+        <div class="border border-gray-300 p-5 my-5 rounded-lg">
+            <h1 class="p-2 text-[20px] font-bold">Key Features:</h1>
+            <ol class="leading-8 list-disc p-5 ">
+                <li><span class="text-red-600 font-bold">Display: </span> 6.1 inches (15.40 cm) OLED Display</li>
+                <li><span class="text-red-600 font-bold">Memory: </span> 128GB ROM</li>
+                <li><span class="text-red-600 font-bold">Processor: </span> A15 Bionic Chip, Hexa Core</li>
+                <li><span class="text-red-600 font-bold">Camera: </span> 12 MP + 12 MP Dual Rear & 12 MP Front Camera</li>
+                <li><span class="text-red-600 font-bold">Battery: </span> Qi Wireless Charging Up to 7.5W</li>
+                <li><span class="text-red-600 font-bold">Security (Lock): </span> Facial Lock</li>
+            </ol>
+        </div>
+        <div class="flex justify-items-center  justify-start gap-6 my-10">
+          
+            <button class="bg-white text-black p-3 text-center  rounded-md w-[25%]" onclick="buynow()">Buy Now</button>
+       
+            <button class="bg-black text-white p-3 text-center  rounded-md w-[25%]" onclick="addtocart()">Add To Cart</button>
+        </div>
+          
+          
+          
+
+        </div>
+
+    
+      
+
+  
+    </div>
+
+    
+    
+   
+
+<script src="productview.js"></script>
+    
+</body>
+</html>

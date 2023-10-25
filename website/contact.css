@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+.navbar-div{
+    margin-top: 2%;
+}
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.category,.deals,.new,.delivery,.account,.cart{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.logo{
+    margin-left: 8rem;
+    
+}
+.logo,.category,.deals,.new,.delivery,.searchbox,.account,.cart{
+    margin-right: 7rem;
+   
+   
+}
+.category:hover,.deals:hover,.new:hover,.delivery:hover,.account:hover,.cart:hover{
+    cursor: pointer;
+    transition: 2s;
+}
+.contact-heading,.contactsub-heading{
+    text-align: center;
+    font-family: Verdana;
+}
+.contact-heading{
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 45px;
+}
+.contactsub-heading{
+    color: rgb(118, 116, 116);
+    font-size: 25px;
+    
+}
+.categorydiv{
+  
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.squarediv{
+    width:300px;
+    height:250px;
+    border-radius: 13px;
+    border: solid;
+    padding:1%;
+    border-width: 1px;
+    border-color:white;
+    transition: .4s;
+}
+.chat,.support,.telephone,.location{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.chat-txt,.support-txt,.location-txt,.telephone-txt{
+    font-family: Verdana;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    color:white;
+}
+.chat-txt1,.support-txt1,.location-txt1,.chat-txt1{
+    font-family: Verdana;
+    margin-left: 10px;
+    margin-top: 20px;
+    color:white;
+}
+.chat-txt2,.support-txt2,.location-txt2,.chat-txt2{
+    font-family: Verdana;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color:gray;
+}
+.squarediv:hover{
+    border-color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.faq{
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana;
+    margin-bottom: 2%;
+}
+.faqdiv{
+  
+    display:flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.questions{
+    font-family: Verdana;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+
+
+}
+.footer-heading{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bolder;
+   
+    
+}
+.answers{
+    font-family: Verdana;
+    margin-left: 10px;
+ 
+}
+.footersub-txt{
+    font-family: Verdana;
+     color: rgb(103, 103, 103);
+     transition: 0.2s;
+}
+.footersub-txt:hover{
+    color: black;
+    cursor: pointer;
+}
+.payments-txt{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    
+}
+.payment-img{
+    width: 50px;
+   
+    margin-right: 2%;
+  
+}
+.newsletterdiv{
+    margin: 8%;
+    background-color:black;
+    height: 200px;
+    border-radius: 25px;
+}
+.news-txt{
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: bold;
+   margin-top: 10%;
+    color:white;
+    width: 700px;
+}
+.news-txt1{
+    font-family: Verdana;
+    color: gray;
+}
+.subscribe{
+    background-color: #191919;
+    color: white;
+    padding: 3%;
+    width: 120px;
+    border-radius: 10px;
+    font-family: Verdana;
+    border: none;
+    margin-left: 4%;
+    margin-top: 16%;
+    transition: 0.2s;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.subscribe:hover{
+    cursor: pointer;
+    scale: 1.02;
+}
+.subscribe:hover{
+    cursor: pointer;
+}
+.emailbox{
+    margin-top: 16%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+
+
+
+    
+    
+
+
+
+
+

@@ -1,0 +1,24 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.payment-img {
+    width: 50px;
+    margin-right: 2%;
+}
+.footer-heading {
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+}
+.footersub-txt {
+    margin-top: 5%;
+    font-family: Verdana;
+    color: gray;
+}
